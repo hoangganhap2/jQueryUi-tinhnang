@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--    Them UI-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Introduce</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="demo/jQuery.js"></script>
+</head>
+<body>
+<nav class="navbar  navbar-expand-md navbar-dark bg-dark justify-content-end nav-padding">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-grow-0" id="collapsibleNavbar">
+        <ul class="navbar-nav text-right">
+            <li class="nav-item active"><a class="nav-link nav-padding" href="#">
+                <button type="button" class="btn btn-dark button-padding">Plugins</button>
+            </a></li>
+            <li class="nav-item active"><a class="nav-link nav-padding" href="#">
+                <button type="button" class="btn btn-dark button-padding">Contribute</button>
+            </a></li>
+            <li class="nav-item active"><a class="nav-link nav-padding" href="#">
+                <button type="button" class="btn btn-dark button-padding">Events</button>
+            </a></li>
+            <li class="nav-item active"><a class="nav-link nav-padding" href="#">
+                <button type="button" class="btn btn-dark button-padding">Support</button>
+            </a></li>
+            <li class="nav-item active"><a class="nav-link nav-padding" href="#">
+                <button type="button" class="btn btn-dark button-padding">JS Foundation</button>
+            </a></li>
+        </ul>
+    </div>
+</nav>
+<div style="background: chocolate; height: 850px">
+    <header>
+        <img src="https://jqueryui.com/jquery-wp-content/themes/jquery/content/donate.png" class="logo">
+    </header>
+    <div style="width: 90%; margin: auto">
+        <div style="border: 1px solid black; border-radius: 10px">
+            <nav class="navbar  navbar-expand-md navbar-light justify-content-end nav-padding">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar1">
+                    <ul class="navbar-nav text-right mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="btn btn-outline-dark button-padding">Demos</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="btn btn-outline-dark button-padding">Download</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="btn btn-outline-dark button-padding">API Documentation</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="btn btn-outline-dark button-padding">Themes</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="btn btn-outline-dark button-padding">Development</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="btn btn-outline-dark button-padding">Support</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="btn btn-outline-dark button-padding">Blog</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="btn btn-outline-dark button-padding">About</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+            <div class="row" style="width: 100%; margin: auto">
+                <div class="col-3" style="background: white">
+                    <ul class="nav flex-column nav-pills" role="tablist">
+                        <li class="nav-item">
+                            <a id="tab1" class="nav-link active" data-toggle="tab" role="tab" href="#pane-tab-1">Draggable</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab2" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-2">Droppable</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab3" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-3">Resizable</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab4" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-4">Selectable</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab5" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-5">Sortable</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab6" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-6">Accordion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab7" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-7">Autocomplete</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab8" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-8">Datepicker</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab9" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-9">Dialog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab10" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-10">Slider</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab11" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-11">Progressbar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab12" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-12">Spinner</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab13" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-13">Tabs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab14" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-14">Add
+                                class</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="tab15" class="nav-link" data-toggle="tab" role="tab" href="#pane-tab-15">Remove
+                                class</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-9" style="background: white">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="pane-tab-1" role="tabpanel" aria-labelledby="tab1">
+                            <h2>Draggable</h2>
+                            <iframe src="demo/draggable.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-2" role="tabpanel" aria-labelledby="tab2">
+                            <h2>Droppable</h2>
+                            <iframe src="demo/droppable.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-3" role="tabpanel" aria-labelledby="tab3">
+                            <h2>Resizable</h2>
+                            <iframe src="demo/resizable.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-4" role="tabpanel" aria-labelledby="tab4">
+                            <h2>Selectable</h2>
+                            <iframe src="demo/selectable.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-5" role="tabpanel" aria-labelledby="tab5">
+                            <h2>Sortable</h2>
+                            <iframe src="demo/sortable.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-6" role="tabpanel" aria-labelledby="tab6">
+                            <h2>Accordion</h2>
+                            <iframe src="demo/accordion.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-7" role="tabpanel" aria-labelledby="tab7">
+                            <h2>Autocomplete</h2>
+                            <iframe src="demo/autocomplete.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-8" role="tabpanel" aria-labelledby="tab8">
+                            <h2>Datepicker</h2>
+                            <iframe src="demo/datepicker.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-9" role="tabpanel" aria-labelledby="tab9">
+                            <h2>Dialog</h2>
+                            <iframe src="demo/dialog.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-10" role="tabpanel" aria-labelledby="tab10">
+                            <h2>Slider</h2>
+                            <iframe src="demo/slider.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-11" role="tabpanel" aria-labelledby="tab11">
+                            <h2>Progressbar</h2>
+                            <iframe src="demo/progressbar.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-12" role="tabpanel" aria-labelledby="tab12">
+                            <h2>Spinner</h2>
+                            <iframe src="demo/spinner.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-13" role="tabpanel" aria-labelledby="tab13">
+                            <h2>Tabs</h2>
+                            <iframe src="demo/tabs.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-14" role="tabpanel" aria-labelledby="tab14">
+                            <h2>Add class</h2>
+                            <iframe src="demo/addClass.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pane-tab-15" role="tabpanel" aria-labelledby="tab15">
+                            <h2>Remove class</h2>
+                            <iframe src="demo/removeClass.html" class="demo-frame">
+                                <p>Your browser does not support iframes.</p>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
